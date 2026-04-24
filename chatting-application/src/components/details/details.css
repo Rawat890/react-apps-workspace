@@ -1,0 +1,100 @@
+.details {
+  flex: 1;
+  .user {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #dddddd35;
+
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+
+  .info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .option {
+      .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+          width: 30px;
+          height: 30px;
+          object-fit: cover;
+          background-color: rgba(0.3);
+          padding: 10px;
+          border-radius: 50px;
+          cursor: pointer;
+        }
+      }
+
+      .photos {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .photoItem {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: row;
+          margin-top: 20px;
+          img {
+            width: 25px;
+            height: 25px;
+            border-radius: 5px;
+            object-fit: cover;
+          }
+          .photoDetail {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            img {
+              width: 25px;
+              height: 25px;
+              border-radius: 5px;
+              object-fit: cover;
+            }
+            span {
+              color: lightgray;
+              font-weight: 300;
+              font-size: 14px;
+            }
+          }
+          .icon {
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .block {
+      padding: 10px 20px;
+      background-color: rgba(230, 74, 105, 0.553);
+      color: white;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+    }
+    .logOut {
+      padding: 10px 20px;
+      background-color: #717171;
+      color: white;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+    }
+  }
+}
